@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(40, 40, 40);
+    width: 1024px;
+    height: 768px;
+    margin: auto;
+    color: #fafbfc;
+    font-family: Arial;
+    font-size: 20px;
+}
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    padding: 0 2%;
+}
+.objectifs {
+    width: 40%;
+    padding: 0 2em;
+    color: rgb(204, 119, 119);
+}
+.notions {
+    width: 40%;
+    padding: 0 2em;
+    color: rgb(108, 189, 114);
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    font-size: 100px;
+    font-weight: bolder;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+.rond {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(16, 131, 157);
+    border-radius: 13px;
+    top: 18px;
+    left: 405px;
+    border: 3px solid black;
+}
